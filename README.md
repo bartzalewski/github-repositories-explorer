@@ -13,7 +13,8 @@ Link to the app: https://github-repositories-explorer.herokuapp.com/
 
 1. `cd github-repositories-explorer`
 2. `npm install`
-3. `npm start`
+3. `npm run build`
+4. `npm start`
 
 ### Check out my website!
 
