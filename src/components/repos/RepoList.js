@@ -7,7 +7,6 @@ const StyledContainer = styled.ul`
 	list-style: none;
 	padding: 0;
 	width: 100%;
-	margin-top: -5px;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;

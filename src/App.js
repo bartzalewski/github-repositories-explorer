@@ -5,7 +5,7 @@ import UserList from './components/users/UserList';
 import { connect } from 'react-redux';
 import * as reactStore from './store/actions/actions';
 import ShowUser from './components/ShowUser';
-import Button from './components/Button';
+import Button from './components/Button/Button';
 
 const StyledContainer = styled.main`
 	overflow-y: scroll;

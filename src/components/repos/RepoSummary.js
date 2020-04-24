@@ -7,6 +7,14 @@ const StyledLink = styled.a`
 	color: #000;
 	width: 92.5%;
 	margin: 5px 0;
+
+	:first-of-type {
+		margin-top: 0px;
+	}
+
+	:last-of-type {
+		margin-bottom: 10px;
+	}
 `;
 const StyledContainer = styled.div`
 	background: #e0e0e0;
