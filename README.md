@@ -2,6 +2,8 @@
 
 Link to the app: https://github-repositories-explorer.herokuapp.com/
 
+<img alt="screenshot" src="https://i.imgur.com/y3mfpr3.jpg">
+
 ## What kind of technologies did I use?
 
 - React.js
