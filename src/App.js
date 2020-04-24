@@ -32,7 +32,7 @@ const StyledForm = styled.form`
 const StyledInput = styled.input`
 	background: #f1f1f1;
 	border: 2px solid #e3e3e3;
-	padding: 15px;
+	padding-left: 15px;
 `;
 const StyledResult = styled.div``;
 
