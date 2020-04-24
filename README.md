@@ -1,5 +1,7 @@
 # Github repositories explorer
 
+Link to the app: https://github-repositories-explorer.herokuapp.com/
+
 ## What kind of technologies did I use?
 
 - React.js
