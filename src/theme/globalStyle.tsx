@@ -1,22 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
-import RobotoRegular from '../fonts/Roboto-Regular.ttf';
-import RobotoLight from '../fonts/Roboto-Light.ttf';
-import RobotoBold from '../fonts/Roboto-Bold.ttf';
 
 const GlobalStyle = createGlobalStyle`
-  @font-face {
-    font-family: "Roboto Regular";
-    src: url(${RobotoRegular});
-  }
-  @font-face {
-    font-family: "Roboto Light";
-    src: url(${RobotoLight});
-  }
-  @font-face {
-    font-family: "Roboto Bold";
-    src: url(${RobotoBold});
-  }
-
   *, *::before, &::after {
     box-sizing: border-box;
   }
@@ -28,8 +12,9 @@ const GlobalStyle = createGlobalStyle`
     align-items: center;
     min-height: 100vh;
     overflow: hidden;
-    font-family: 'Roboto Regular';
+    font-weight: 400;
     font-size: 15px;
+    font-family: 'Roboto', sans-serif;
   }
 
   input, button {
@@ -39,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
     height: 40px;
     min-height: 40px;
     border-radius: 2px;
-    font-family: 'Roboto Regular';
+    font-weight: 400;
     font-size: 15px;
   }
 
